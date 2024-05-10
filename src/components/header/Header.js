@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "../../assets/logo.svg";
 import x from "../../assets/buttonX.svg";
 import { useLocation, useNavigate } from "react-router-dom";
