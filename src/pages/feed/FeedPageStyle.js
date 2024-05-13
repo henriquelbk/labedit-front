@@ -97,7 +97,7 @@ export const Button = styled.button`
   &:hover {
     transform: scale(
       1.05
-    ); /* Ajuste o valor conforme necessário para o efeito desejado */
-    transition: transform 0.3s ease; /* Adicione uma transição para suavizar o efeito */
+    ); 
+    transition: transform 0.3s ease; 
   }
 `;
