@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import Header from "../../components/header/Header";
 import PostCard from "../../components/postcard/PostCard";
-import { Button, Container, ContainerPosts, Form } from "./FeedStyle";
+import { Button, Container, ContainerPosts, Form } from "../feed/FeedPageStyle";
 import { useProtectedPage } from "../../hooks/useProtectedPage";
 import { GlobalStateContext } from "../../contexts/GlobalContext";
 import { useNavigate } from "react-router-dom";
