@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import Header from "../../components/header/Header";
-import PostCard from "../../components/postcard/PostCard";
+import PostCard from "../../components/post/Post";
 import { Button, Container, ContainerPosts, Form } from "../feed/FeedPageStyle";
 import { useProtectedPage } from "../../hooks/useProtectedPage";
 import { GlobalStateContext } from "../../contexts/GlobalContext";
