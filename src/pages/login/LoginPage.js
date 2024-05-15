@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import { Button, Container, ContainerLogo, Form } from "./LoginStyle";
+import { Button, Container, ContainerLogo, Form } from "./LoginPageStyle";
 import { useNavigate } from "react-router-dom";
 import { goToFeed, goToSignUp } from "../../routes/Coordinator";
 import { useForm } from "../../hooks/useForm";
