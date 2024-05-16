@@ -5,9 +5,9 @@ import {
   Form,
   Container,
   ContainerPosts,
-} from "../comments/CommentsStyle";
-import PostCard from "../../components/postcard/PostCard";
-import CommentCard from "../../components/commentcard/CommentCard";
+} from "../comments/CommentPageStyle";
+import PostCard from "../../components/post/Post";
+import CommentCard from "../../components/comment/CommentCard";
 import { useProtectedPage } from "../../hooks/useProtectedPage";
 import { BASE_URL } from "../../constants/baseURL";
 import { useNavigate, useParams } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, ContainerLikes } from "./PostCardStyle";
+import { Button, Container, ContainerLikes } from "./PostStyle";
 import { goToPost } from "../../routes/Coordinator";
 import { FaArrowDown, FaArrowUp, FaComments } from "react-icons/fa";
 
