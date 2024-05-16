@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import LoginPage from "../pages/login/LoginPage"
-import SignUpPage from "../pages/signup/SignUpPage"
+import SignUpPage from "../pages/signup/SignUpPage";
 import FeedPage from "../pages/feed/FeedPage"
 import CommentPage from "../pages/comments/CommentPage"
 import ErrorPage from "../pages/error/ErrorPage"
