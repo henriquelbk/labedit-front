@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { goToLogin } from "../../routes/Coordinator";
-import { Form, Button, Container, ContainerLogo } from "./SignUpPageStyle";
+import { Form, Button, Container, ContainerLogo } from "../signup/SignUpPageStyle";
 import Header from "../../components/header/Header";
 import {useForm} from '../../hooks/useForm'
 import { emailPattern, namePattern, passwordPattern } from '../../constants/patterns'
