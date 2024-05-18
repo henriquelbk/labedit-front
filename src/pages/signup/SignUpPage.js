@@ -52,14 +52,14 @@ const SignupPage = () => {
       <Container>
         <ContainerLogo>
           <div>
-            <h1>Olá, boas vindas ao LabEddit</h1>
+            <h1>Olá, boas vindas ao LabEdit</h1>
           </div>
         </ContainerLogo>
         <Form onSubmit={signup}>
           <input
             type="name"
             name="name"
-            placeholder="Apelido"
+            placeholder="Nick"
             pattern={namePattern}
             value={form.value}
             onChange={onChange}
@@ -88,7 +88,7 @@ const SignupPage = () => {
           </p>
           <div className="check">
             <input type="checkbox" className="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
-            <p>Eu concordo em receber emails do Labedit</p>
+            <p>Eu li e concordo com os termos do LabEdit</p>
           </div>
           <Button className="orange" type="submit">{
             loading

@@ -16,6 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
+  background-color: #ededed;
   color: #4088cb;
   text-align: center;
   font-family: Noto Sans;
@@ -28,6 +29,8 @@ export const Button = styled.button`
 
   &:hover {
     color: orange;
+    transition: 0.3s;
+    
   }
 `;
 
