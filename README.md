@@ -1,6 +1,6 @@
 <h1>💻 Website - LABEDDIT - FRONT END</h1>
 
-<h2>📝 Descrição do Projeto</h1>h2>
+<h2>📝 Descrição do Projeto</h2>
 
 Este é o projeto final do meu curso de Desenvolvimento Web FullStack, em que foram aplicados os conhecimentos adquiridos em back-end e front-end. O design do aplicativo segue o conceito Mobile First, priorizando o desenvolvimento para dispositivos móveis e adaptando-o para telas maiores, como tablets ou desktops.
 
