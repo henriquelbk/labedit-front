@@ -12,7 +12,7 @@ Para facilitar o processo de deploy, os códigos foram divididos em repositório
 
 <h2>Informação Geral</h2>
 
-<h3>👩🏻‍💻 Este projeto foi criado utilizando as seguintes tecnologias:</h3>h3>
+<h3>👩🏻‍💻 Este projeto foi criado utilizando as seguintes tecnologias:</h3>
 
 React.Js and React Router DOM
 Styled Componentes
