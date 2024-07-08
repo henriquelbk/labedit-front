@@ -4,7 +4,7 @@ import { Button, Container, ContainerLogo, Form } from "./LoginPageStyle";
 import { useNavigate } from "react-router-dom";
 import { goToFeed, goToSignUp } from "../../routes/Coordinator";
 import { useForm } from "../../hooks/useForm";
-// import { emailPattern, passwordPattern } from "../../constants/patterns";
+import { emailPattern, passwordPattern } from "../../constants/patterns";
 import axios from "axios";
 import { BASE_URL } from "../../constants/baseURL";
 import { setStorageItem } from "../../utils/storageManager";
@@ -56,7 +56,7 @@ const LoginPage = () => {
           <input
             type="email"
             name="email"
-            // pattern={emailPattern}
+            pattern={emailPattern}
             value={form.value}
             onChange={onChange}
             placeholder="E-mail"
@@ -64,7 +64,7 @@ const LoginPage = () => {
           <input
             type="password"
             name="password"
-            // pattern={passwordPattern}
+            pattern={passwordPattern}
             value={form.value}
             onChange={onChange}
             placeholder="Senha"
