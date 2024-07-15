@@ -12,7 +12,11 @@ export const useRequestData = (url, initialState) => {
             const response = await axios.get(url, getHeaders())
             setData(response.data)
         } catch (error) {
-            console.log(error.response.data)
+            if (error.response && error.response.data) {
+                console.log(error.response.data)
+            } else {
+                console.log(error.message)
+            }
         } finally {
             setLoading(false)
         }

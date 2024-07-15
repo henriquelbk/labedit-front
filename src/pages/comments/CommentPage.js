@@ -54,7 +54,7 @@ const CommentsPage = () => {
   useEffect(() => {
     getPosts();
     getComments();
-  }, [posts]);
+  }, []);
 
   const postField = async (e) => {
     e.preventDefault();
