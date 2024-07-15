@@ -28,7 +28,7 @@ const FeedPage = () => {
 
   useEffect(() => {
     getPosts();
-  });
+  }, []);
 
   const postField = async (e) => {
     e.preventDefault();
